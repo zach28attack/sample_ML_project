@@ -1,0 +1,14 @@
+prefix=/Users/zacharycasares/dev/machine-learning/sample_project/env
+exec_prefix=/Users/zacharycasares/dev/machine-learning/sample_project/env
+libdir=/Users/zacharycasares/dev/machine-learning/sample_project/env/lib
+includedir=/Users/zacharycasares/dev/machine-learning/sample_project/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/zacharycasares/dev/machine-learning/sample_project/env/lib -lfreetype
+Libs.private: -lz -L/Users/zacharycasares/dev/machine-learning/sample_project/env/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2
